@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;  }
+
+.wrap{
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: auto;
+}
+
+section{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+    margin-top: 5px;
+}
+
+time{
+    font-family: Menlo, Monaco, monospace;
+    display: block;
+    color: #beaaae;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 0 0 15px 0;}
+
+h2{
+    margin-bottom: 2px;  }
+p{
+    line-height: 150%;  } /*TODO: space between text*/

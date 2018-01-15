@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-note</title>
+    <link rel='stylesheet' type='text/css' href='styleIndex.css'>
+</head>
+<body>
+<!--TODO: content wrapper-->
+<div class="wrap">
+    <section class="info">
+        <article>
+            <h2>Include JQuery library into Website</h2>
+            <time class="time">January 2 2018</time>
+            <p><strong>Preview:</strong> JQuery interact with DOM elements, when we use Jquery library.<br>
+                <strong>What?</strong> Copy link <em>src="https://code.jquery.com/jquery-3.2.1.js"</em> and wrap it into the<br>
+                <em>script</em> tag then insert into the <em>head</em> tag in your website.<br>
+                Make sure that HTML is loaded before we run our jQuery and JavaScript code.<br>
+                <strong>Where?</strong> Link JavaScript file into HTML file, then use JavaScript functions and syntax in our <em>main.js</em> file.<br>
+                <strong>Don't forget:</strong> Before the closing <em>/body</em> tag, create a link to the <em>main.js</em> file using a <em>script</em> tag.<br>
+                <strong>IDE:</strong> If uses IDE like <em>WebStorm</em> it offers you to download JQuery library inside <br> environment emphasize it by color.<br>
+                Like that:<br>
+                <img src="ScreenShot/JqueryLink.png">
+            </p>
+        </article>
+    </section>
+
+    <section class="info">
+        <article>
+            <h2>Different syntax of Jquery</h2>
+            <time class="time">January 10 2018</time>
+            <p><strong>Notice:</strong> Jquery has a built in function called <em>.ready()</em> to check if the page is
+                ready before it will run code.<br>
+            </p>
+            <ul>
+                <li>A $ sign to define/access jQuery</li>
+                <li>A (selector) to "query (or find)" HTML elements</li>
+                <li>A jQuery action() to be performed on the element(s)</li>
+            </ul>
+            <p>
+                It can be declare upside or downside of code.<br>
+                First variant uses Jquery syntax inside of javaScript function <strong>like that:</strong><br>
+                <img src="ScreenShot/FirstJQ.png"><br>
+                <strong>Notice:</strong> That <em>.ready()</em> function declare after function and name of function
+                declare<br>
+                inside of JQuery function like that:
+                <em>.ready(main)</em> where's the <em>main</em> it's mane of function.<br>
+                Second variant uses pure Jquery syntax that doesn't needed pre-declare JavaScript function<br>
+                likes in previous example.<br>
+                <strong>Notice:</strong> All jQuery methods in our examples, are inside a document ready event.<br>
+                To start use $ sing and <code>(document)</code> as the selector to prevent any jQuery code from<br>
+                running before the document is finished loading <strong>like that:</strong>.<br>
+                <img src="ScreenShot/ReadyMeth.png"><br>
+            </p>
+
+            <h2>Add project to VCS (Git)</h2>
+            <time class="time">January 11 2018</time>
+            <p><strong>First steps:</strong> Download <em>Git.exe</em> from official website <code>https://git-scm.com/downloads</code>
+                and <br>
+                install it on computer in default directory <em>disc C:/Program files/...</em>. <br>
+                <img src="ScreenShot/DownloadGit.png"><br>
+                <strong>Notice:</strong> Version control configuring as for Webstorm as for other products of
+                JetBrain.<br>
+                <strong>Where?</strong> Go to the <em>setting</em> in the left panel and find <em>Version Control</em>
+                and select it<br>
+                then select <em>Git</em> bookmark on which is <em>Path to Git</em> and specify root file
+                <em>git.exe</em>.<br>
+                <img src="ScreenShot/PathVCS.png"><br>
+                After all actions press button <em>Test</em> to check if everything OK! If it's true appears green
+                notification.<br>
+                <img src="ScreenShot/Notify.png"><br>
+            </p>
+        </article>
+
+
+        <article>
+            <h2>Connect GitHub to the project</h2>
+            <time class="time">January 11 2018</time>
+            <p><strong>Notice:</strong> Registration on website <code>https://github.com/</code><br>
+                Go to the setting of IDE select bookmark <em>GitHub</em> input personal data in given field.<br>
+                Where's <em>Host</em> it's <code>github.com</code> and <em>password</em> it's password on website/<br>
+                <img src="ScreenShot/GitHub.png"><br>
+                Then press <em>Test</em> for successful connection to website.
+            </p>
+        </article>
+    </section>
+
+    <section class="info">
+        <article>
+            <h2>Create file .gitignore</h2>
+            <time class="time">January 11 2018</time>
+            <p>In the root folder of project create file with extension <code>.gitignore</code><br>
+                <img src="ScreenShot/FileGitIgnore.png"><br>
+                Then add files from the project which aren't relevant to the project like: <em>.idea</em><br>
+                <img src="ScreenShot/AddIgnore.png"><br>
+            </p>
+        </article>
+    </section>
+
+    <section class="info">
+        <article>
+            <h2>JQuery selector $(this) in details</h2>
+            <time class="time">January 15 2018</time>
+            <p> When select the specific element we clicked on with the jQuery selector $(this).<br>
+                If there are multiple elements with a class of <code>.example-class</code>, this will only<br>
+                toggle the class of the one that is clicked on. <strong>Like show on image:</strong><br>
+                <img src="ScreenShot/ThisExap.png"><br>
+            </p>
+        </article>
+    </section>
+
+    <section class="info">
+        <article>
+            <h2></h2>
+            <time class="time">???</time>
+            <p>
+                <img src="??"><br>
+            </p>
+        </article>
+    </section>
+
+    <section class="info">
+        <article>
+            <h2></h2>
+            <time class="time">???</time>
+            <p>
+                <img src="??"><br>
+            </p>
+        </article>
+    </section>
+
+    <section class="info">
+        <article>
+            <h2></h2>
+            <time class="time">???</time>
+            <p>
+                <img src="??"><br>
+            </p>
+        </article>
+    </section>
+
+    <section class="info">
+        <article>
+            <h2></h2>
+            <time class="time">???</time>
+            <p>
+                <img src="??"><br>
+            </p>
+        </article>
+    </section>
+
+    <section class="info">
+        <article>
+            <h2></h2>
+            <time class="time">???</time>
+            <p>
+                <img src="??"><br>
+            </p>
+        </article>
+    </section>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src='start.js'></script>
+</body>
+
+</html>
