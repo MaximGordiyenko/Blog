@@ -8,4 +8,25 @@ $(document).ready(function () {
             color: 'black'
         });
     });
+
+    $('p').each(function () {
+        if ($(this).css('marginLeft') === '15px') {
+            $(this).on("mouseenter", function () {
+                $(this).css({
+                    borderLeftStyle: "solid",
+                    borderLeftColor: "#C5F891",
+                    borderLeftWidth: '15px',
+                    marginLeft: '15px'
+                });
+            }).on('mouseleave', function () {
+                $(this).css({
+                    borderLeftStyle: "none",
+                    borderLeftColor: "none"
+                    // borderLeftWidth: '15px',
+                    // marginLeft: '0'
+
+                });
+            });
+        }
+    });
 });
