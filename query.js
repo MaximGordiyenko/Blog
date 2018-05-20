@@ -22,11 +22,17 @@ $(document).ready(function () {
                 $(this).css({
                     borderLeftStyle: "none",
                     borderLeftColor: "none"
-                    // borderLeftWidth: '15px',
-                    // marginLeft: '0'
-
                 });
             });
         }
     });
+    $("img").on('mouseenter', function () {
+        $(this).css({
+            width: '100%'
+        });
+    }).on('mouseleave', function () {
+        $(this).css({
+          width: '30%'
+        })
+    })
 });
