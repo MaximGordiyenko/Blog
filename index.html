@@ -6,31 +6,30 @@
     <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
 <body>
-<!--TODO: content wrapper-->
 <div class="wrap">
     <section class="info">
         <article>
             <h2>Include JQuery library into Website</h2>
             <time class="time">January 2 2018</time>
-            <p><strong>Preview:</strong> JQuery interact with DOM elements, when we use Jquery library.<br>
-                <strong>What?</strong> Copy link <em>src="https://code.jquery.com/jquery-3.2.1.js"</em> and wrap it into the<br>
-                <em>script</em> tag then insert into the <em>head</em> tag in your website.<br>
-                Make sure that HTML is loaded before we run our jQuery and JavaScript code.<br>
-                <strong>Where?</strong> Link JavaScript file into HTML file, then use JavaScript functions and syntax in our <em>main.js</em> file.<br>
-                <strong>Don't forget:</strong> Before the closing <em>/body</em> tag, create a link to the <em>main.js</em> file using a <em>script</em> tag.<br>
-                <strong>IDE:</strong> If uses IDE like <em>WebStorm</em> it offers you to download JQuery library inside <br> environment emphasize it by color.<br>
-                Like that:<br>
-                <img src="images/JqueryLink.png">
+            <p>
+                <span>Preview:</span> JQuery interact with DOM elements, when we use Jquery library.
+                <span>What?</span> Copy link <em>src="https://code.jquery.com/jquery-3.2.1.js"</em> and wrap it into the <em>script</em> tag then insert into the <em>head</em> tag in your website.
+                Make sure that HTML is loaded before we run our jQuery and JavaScript code.
+                <span>Where?</span> Link JavaScript file into HTML file, then use JavaScript functions and syntax in our
+                <em>main.js</em> file. <span>Don't forget:</span> Before the closing <em>/body</em> tag, create a link to the <em>main.js</em> file using a <em>script</em> tag.
+                <span>IDE:</span> If uses IDE like <em>WebStorm</em> it offers you to download JQuery library inside environment emphasize it by color.
+                <span>Like that:</span>
             </p>
+            <img src="images/JqueryLink.png">
         </article>
     </section>
-
+    
     <section class="info">
         <article>
             <h2>Different syntax of Jquery</h2>
             <time class="time">January 10 2018</time>
-            <p><strong>Notice:</strong> Jquery has a built in function called <em>.ready()</em> to check if the page is
-                ready before it will run code.<br>
+            <p>
+                <span>Notice:</span> Jquery has a built in function called <em>.ready()</em> to check if the page is ready before it will run code.
             </p>
             <ul>
                 <li>A $ sign to define/access jQuery</li>
@@ -38,89 +37,81 @@
                 <li>A jQuery action() to be performed on the element(s)</li>
             </ul>
             <p>
-                It can be declare upside or downside of code.<br>
-                First variant uses Jquery syntax inside of javaScript function <strong>like that:</strong><br>
-                <img src="images/FirstJQ.png"><br>
-                <strong>Notice:</strong> That <em>.ready()</em> function declare after function and name of function
-                declare<br>
-                inside of JQuery function like that:
-                <em>.ready(main)</em> where's the <em>main</em> it's mane of function.<br>
-                Second variant uses pure Jquery syntax that doesn't needed pre-declare JavaScript function<br>
-                likes in previous example.<br>
-                <strong>Notice:</strong> All jQuery methods in our examples, are inside a document ready event.<br>
-                To start use $ sing and <code>(document)</code> as the selector to prevent any jQuery code from<br>
-                running before the document is finished loading <strong>like that:</strong>.<br>
-                <img src="images/ReadyMeth.png"><br>
+                It can be declare upside or downside of code.
+                First variant uses Jquery syntax inside of javaScript function <span>like that:</span></p>
+            <img src="images/FirstJQ.png">
+            <p>
+                <span>Notice:</span> That <em>.ready()</em> function declare after function and name of function declare inside of JQuery function like that: <em>.ready(main)</em> where's the <em>main</em> it's mane of function.
+               Second variant uses pure Jquery syntax that doesn't needed pre-declare JavaScript function likes in previous example.
+               <span>Notice:</span> All jQuery methods in our examples, are inside a document ready event.
+               To start use $ sing and <code>(document)</code> as the selector to prevent any jQuery code from running before the document is finished loading <span>like that:</span>.
             </p>
-
+            <img src="images/ReadyMeth.png"><br>
+        </article>
+    </section>
+    
+    <section class="info">
+        <article>
             <h2>Add project to VCS (Git)</h2>
             <time class="time">January 11 2018</time>
-            <p><strong>First steps:</strong> Download <em>Git.exe</em> from official website <code>https://git-scm.com/downloads</code>
-                and <br>
-                install it on computer in default directory <em>disc C:/Program files/...</em>. <br>
-                <img src="images/DownloadGit.png"><br>
-                <strong>Notice:</strong> Version control configuring as for Webstorm as for other products of
-                JetBrain.<br>
-                <strong>Where?</strong> Go to the <em>setting</em> in the left panel and find <em>Version Control</em>
-                and select it<br>
-                then select <em>Git</em> bookmark on which is <em>Path to Git</em> and specify root file
-                <em>git.exe</em>.<br>
-                <img src="images/PathVCS.png"><br>
-                After all actions press button <em>Test</em> to check if everything OK! If it's true appears green
-                notification.<br>
-                <img src="images/Notify.png"><br>
+            <p>
+                <span>First steps:</span> Download <em>Git.exe</em> from official website <code>https://git-scm.com/downloads</code>
+                 and install it on computer in default directory <em>disc C:/Program files/...</em>.
             </p>
+            <img src="images/DownloadGit.png">
+            <p>
+                <span>Notice:</span> Version control configuring as for Webstorm as for other products of JetBrain.
+                <span>Where?</span> Go to the <em>setting</em> in the left panel and find <em>Version Control</em> and select it then select <em>Git</em> bookmark on which is <em>Path to Git</em> and specify root file <em>git.exe</em>.
+            </p>
+            <img src="images/PathVCS.png">
+            <p>After all actions press button <em>Test</em> to check if everything OK! If it's true appears green notification. <span>Like below:</span>
+            </p>
+            <img src="images/Notify.png">
         </article>
-
-
+        
         <article>
             <h2>Connect GitHub to the project</h2>
             <time class="time">January 11 2018</time>
-            <p><strong>Notice:</strong> Registration on website <code>https://github.com/</code><br>
-                Go to the setting of IDE select bookmark <em>GitHub</em> input personal data in given field.<br>
-                Where's <em>Host</em> it's <code>github.com</code> and <em>password</em> it's password on website/<br>
+            <p><span>Notice:</span> Registration on website <code>https://github.com/</code> Go to the setting of IDE select bookmark <em>GitHub</em> input personal data in given field. Where's <em>Host</em> it's <code>github.com</code> and <em>password</em> it's password on website/ </p>
                 <img src="images/GitHub.png"><br>
-                Then press <em>Test</em> for successful connection to website.
-            </p>
+            <p>Then press <em>Test</em> for successful connection to website.</p>
         </article>
     </section>
-
+    
     <section class="info">
         <article>
             <h2>Create file .gitignore</h2>
             <time class="time">January 11 2018</time>
-            <p>In the root folder of project create file with extension <code>.gitignore</code><br>
+            <p>In the root folder of project create file with extension <code>.gitignore</code></p>
                 <img src="images/FileGitIgnore.png"><br>
-                Then add files from the project which aren't relevant to the project like: <em>.idea</em><br>
-                <img src="images/AddIgnore.png"><br>
-            </p>
+               <p>Then add files from the project which aren't relevant to the project like: <em>.idea</em></p>
+                <img src="images/AddIgnore.png">
         </article>
     </section>
-
+    
     <section class="info">
         <article>
             <h2>JQuery selector $(this) in details</h2>
             <time class="time">January 15 2018</time>
-            <p> When select the specific element we clicked on with the jQuery selector $(this).<br>
-                If there are multiple elements with a class of <code>.example-class</code>, this will only<br>
-                toggle the class of the one that is clicked on. <strong>Like show on image:</strong><br>
-                <img src="images/ThisExap.png"><br>
+            <p> When select the specific element we clicked on with the jQuery selector $(this).
+                If there are multiple elements with a class of <code>.example-class</code>, this will only
+                toggle the class of the one that is clicked on. <span>Like show on image:</span>
             </p>
+                <img src="images/ThisExap.png">
         </article>
     </section>
-
+    
     <section class="info">
         <article>
             <h2>How to place text under the icon</h2>
             <time class="time">January 16 2018</time>
-            <p>Place Awesome icon <span>above</span>/before of text or link in html structure.<br>
-                <img src="images/htmlStructure.png" alt="structure"><br>
-                Then use css/less styling for arrange code. In this case more important of <span>width</span> value<br>
-                <img src="images/lessView.png" alt="less">
-            </p>
+            <p>Place Awesome icon <span>above</span>/before of text or link in html structure.</p>
+            <img src="images/htmlStructure.png" alt="structure">
+            <p>Then use css/less styling for arrange code. In this case more important of <span>width</span> value</p>
+            <img src="images/lessView.png" alt="less">
         </article>
     </section>
-
+    
     <section class="info">
         <article>
             <h2></h2>
@@ -130,7 +121,7 @@
             </p>
         </article>
     </section>
-
+    
     <section class="info">
         <article>
             <h2></h2>
@@ -140,7 +131,7 @@
             </p>
         </article>
     </section>
-
+    
     <section class="info">
         <article>
             <h2></h2>
@@ -150,7 +141,7 @@
             </p>
         </article>
     </section>
-
+    
     <section class="info">
         <article>
             <h2></h2>
